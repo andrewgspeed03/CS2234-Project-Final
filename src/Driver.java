@@ -238,8 +238,8 @@ public class Driver {
         // Rotating image by degrees using toradians()
         // method
         // and setting new dimension t it
-        g2.rotate(angle);
-        //rotate.rotate(angle);
+
+        rotate.rotate(angle);
         AffineTransformOp op = new AffineTransformOp(rotate ,null);
         g2.drawImage(img, op, 0, 0);
  
